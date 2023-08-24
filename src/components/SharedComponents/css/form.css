@@ -1,0 +1,26 @@
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: flex;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  } 
+
+  .form-group{
+    padding: 5px;
+  }
+
+  #content{
+    align-items: center;
+  }

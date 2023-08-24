@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background: #b2b8ca;
+
+}
+
+.container1{
+    
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.tab-content{
+    background: #fff;
+    width: 90%;
+    height: 500px;
+    background: #fff;
+    padding: 50px 40px; 
+    /* overflow: auto; */
+    /* filter: blur(5px); */
+
+}
+
+.tab-content.blurred {
+    filter: blur(5px);
+  }
+
+h3{
+    background: #e4e9fd;
+    width: 100%;
+    text-align: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+    cursor: pointer;
+    font-weight: 300;
+}
